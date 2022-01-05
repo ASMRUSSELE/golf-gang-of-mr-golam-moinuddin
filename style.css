@@ -1,25 +1,46 @@
-#name-color{
-    color: #fa7272;
+body{
+    margin: 0;
+}
+
+h1{
+
+    font-size: 40px;
+    border-left-color: red;
+}
+
+#color-tomato{
+    color: tomato;
+}
+.name-size{
+    font-size: 35px;
+    font-family:arialbold;
+
 }
 section{
     display: flex
+    
 }
 .half-width{
-    width: 50%;
+    width: 60%;
+    padding: 3%;
     align-content: center;
-    align:center;
 }
 .half-width img{
-    width: 80%
+    width: 300%;
 }
-
 .link-button{
-    background-color: tomato;
-    padding: 10px;
+    text-decoration: none;
+    background-color:tomato;
+    padding: 10px 10px;
     border-radius: 10px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 800;
     font-style:normal;
     color: white;
+}
 
+#h1-border{
+    border-left-width: 5px;
+    border-color: green;
 }
