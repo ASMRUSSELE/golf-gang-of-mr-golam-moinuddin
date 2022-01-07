@@ -1,46 +1,40 @@
 body{
     margin: 0;
+    padding: 0;
+}
+.parant{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: right;
 }
 
-h1{
-
-    font-size: 40px;
-    border-left-color: red;
+.para-font{
+    font-size: 125%;
+    text-align: auto;
 }
 
-#color-tomato{
-    color: tomato;
+.left-side{
+    width: 65%;
 }
-.name-size{
-    font-size: 35px;
-    font-family:arialbold;
-
+.details-btn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    font-size: 18px;
+    font-weight: 500;
 }
-section{
-    display: flex
-    
-}
-.half-width{
-    width: 60%;
-    padding: 3%;
-    align-content: center;
-}
-.half-width img{
-    width: 300%;
-}
-.link-button{
-    text-decoration: none;
-    background-color:tomato;
-    padding: 10px 10px;
-    border-radius: 10px;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 800;
-    font-style:normal;
+.details-btn:hover{
+    background-color: blue;
     color: white;
+    cursor: pointer;
 }
 
-#h1-border{
-    border-left-width: 5px;
-    border-color: green;
+.photo img{
+width: 700px;
+
+}
+#name-color{
+color: rgb(230, 37, 3);
 }
