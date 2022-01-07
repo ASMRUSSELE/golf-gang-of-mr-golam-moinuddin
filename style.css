@@ -1,12 +1,31 @@
 body{
     margin: 0;
     padding: 0;
+       
 }
 .parant{
     display: flex;
     width: 80%;
     margin: 0 auto;
     justify-content: right;
+    padding-top: 50px;
+    
+}
+
+#name-side-bar{
+    width: 80%;
+    padding-left: 5px;
+    border: 4px solid red;
+    height: 2.5cm;
+    margin: 0;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;  
+}
+
+#name-text{
+    font-size: 40px;
+
 }
 
 .para-font{
@@ -34,13 +53,17 @@ body{
 width: 700px;
 }
 #name-color{
-color: rgb(230, 37, 3);
+color: rgba(230, 113, 3, 0.836);
 }
 
 .second-section{
 text-align: center;
 margin-top: 50px;
 display: flex;
+justify-content: space-between;
+padding: 50px;
+width: 75%;
+margin: 0 auto;
 }
 
 #heading-of-2nd-div{
@@ -51,11 +74,60 @@ display: flex;
 }
 .about-mission{
     width: 250px;
-    border: 1px solid grey;
-    box-shadow: 4px 4px 12px grey;
+    border: 1px solid white;
+    background-color: rgba(255, 99, 71, 0.199);
     border-radius: 15px;
+    text-align: left;
+    padding: 15px;
 
 }
+#mvg-text{
+
+    text-align: left;
+    margin-left: 15px;
+    top: none;
+}
 .div-img img{
-    width: 100px;
+    width: 150px;
+    margin-right: 85px;
+    display: inline-flex;
+    top: 0;
+ 
+}
+.about-vission{
+    width: 250px;
+    border: 1px solid white;
+    background-color: rgba(135, 207, 235, 0.37);
+    border-radius: 15px;
+    text-align: left;
+    padding: 15px;
+}
+
+.about-goal{
+    width: 250px;
+    border: 1px solid white;
+    background-color: rgba(255, 166, 0, 0.205);
+    border-radius: 15px;
+    text-align: left;
+    padding: 15px;
+}
+
+.all-para-font{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+.third-section{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: right;
+    padding-top: 50px;
+}
+.third-section-img img{
+    width: 700px;
+    margin-right: 85px;
+    display: inline-flex;
+    top: 0;
+
 }
