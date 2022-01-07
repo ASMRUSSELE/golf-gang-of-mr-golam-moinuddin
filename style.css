@@ -30,11 +30,32 @@ body{
     color: white;
     cursor: pointer;
 }
-
 .photo img{
 width: 700px;
-
 }
 #name-color{
 color: rgb(230, 37, 3);
+}
+
+.second-section{
+text-align: center;
+margin-top: 50px;
+display: flex;
+}
+
+#heading-of-2nd-div{
+    text-align: center;
+}
+#year-color{
+    color: rgb(230, 37, 3);
+}
+.about-mission{
+    width: 250px;
+    border: 1px solid grey;
+    box-shadow: 4px 4px 12px grey;
+    border-radius: 15px;
+
+}
+.div-img img{
+    width: 100px;
 }
